@@ -129,6 +129,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\adminsController.cs" />
+    <Compile Include="Controllers\countriesController.cs" />
     <Compile Include="Controllers\employeesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -191,6 +192,11 @@
     <Content Include="Views\admins\Details.cshtml" />
     <Content Include="Views\admins\Edit.cshtml" />
     <Content Include="Views\admins\Index.cshtml" />
+    <Content Include="Views\countries\Create.cshtml" />
+    <Content Include="Views\countries\Delete.cshtml" />
+    <Content Include="Views\countries\Details.cshtml" />
+    <Content Include="Views\countries\Edit.cshtml" />
+    <Content Include="Views\countries\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
